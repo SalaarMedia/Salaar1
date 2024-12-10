@@ -9,7 +9,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(useGSAP,TextPlugin,ScrollTrigger)
 
- 
+  
  
 function HomePageHeader() {
 
