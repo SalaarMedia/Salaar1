@@ -16,13 +16,13 @@ export const Home = () => {
   return (
     <div>
       <HomePageHeader/>
-      <ScrollText/>
-      <DefineUS/>
-      <OurWorks/>
-      <PatnerClient/>
+      {/* <ScrollText/> */}
+      {/* <DefineUS/> */}
+      {/* <OurWorks/> */}
+      {/* <PatnerClient/> */}
       {/* <Founder/> */}
-      <Testimonial/>
-      <Motivation/>
+      {/* <Testimonial/> */}
+      {/* <Motivation/> */}
       <Footer/>
     </div>
   )
