@@ -35,8 +35,8 @@ const OurWorks = () => {
 </div>
 
  <Desgin/>
- <Technology/>
- <Business/>
+ {/* <Technology/>
+ <Business/> */}
 
 
 

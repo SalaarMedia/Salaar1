@@ -137,6 +137,7 @@
 }
 
 .bannerPara{
+    box-sizing: border-box;
     width: 100%;
     font-size: 30px;
     padding: 20px;
@@ -167,12 +168,13 @@
 
     .HomePageHeaderContainer
 {
+
     position: relative;
     z-index: 1;
     background: transparent;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    border: 5px solid red;
+    
     
 }
 
@@ -180,25 +182,27 @@
 
 .contentWraper{
     
-    width: 560px;
+    width: 60%;
+    padding-left: 100px;
     transform: skewX(-25deg);
-    position: absolute;
-    top: -10px;
-    left: 130px;
-    border: 5px solid red;
+    position: relative;
+    top: 25px;
+    left: 0px;
+    
+ 
 
 }
 
 .contentWraper h1{
-    font-size: 50px;
-    border: 5px solid red;
+    font-size: 30px;
+   
 
 }
 .contentWraper h4{
-    font-size: 26px;
+    font-size: 22px;
     display: flex;
-    margin-top: -40px;
-    border: 5px solid red;
+    margin-top: -20px;
+   
 
 }
 
@@ -208,34 +212,36 @@
     position: absolute;
     top: 20px;
     left:20px;
-    border: 5px solid red;
+   
 
 
 }
 
 .boxWraper div{
     
-    height: 80px;
-    width: 15px;
+    height: 50px;
+    width: 10px;
     transform:skewX(-25deg);
     margin-left: 8px;
-    border: 5px solid red;
+   
 
 }
 
 .bannerPara{
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
     padding: 20px;
     top: 100px;
     left: 0px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .ourWorkPara{
     top: 200px;
     left: 20px;
     font-size: 20px;
-    border: 5px solid red;
+   
 
 }
 
@@ -243,10 +249,10 @@
 
     .headerImage{
         position: relative;
-        margin-top: 200px;
+        margin-top: 150px;
         height: 320px;
-        margin-left: 10px;
-    border: 5px solid red;
+        margin-left: 0px;
+   
         
        
     }

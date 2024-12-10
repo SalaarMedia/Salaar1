@@ -16,9 +16,9 @@ export const Home = () => {
   return (
     <div>
       <HomePageHeader/>
-      {/* <ScrollText/> */}
-      {/* <DefineUS/> */}
-      {/* <OurWorks/> */}
+      <ScrollText/>
+      <DefineUS/>
+      <OurWorks/>
       {/* <PatnerClient/> */}
       {/* <Founder/> */}
       {/* <Testimonial/> */}
