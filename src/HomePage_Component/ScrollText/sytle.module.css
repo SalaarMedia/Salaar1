@@ -14,18 +14,12 @@
     }
 }
 
-@media screen and (max-width: 600px) {
-    .ScrollTextContainer .ScrollTextwrap{
-        font-size: 30px;
-        margin-top: -350px;
-        overflow: hidden;
-    }
-}
+
 
 @media screen and (max-width: 600px) {
     .ScrollTextContainer .ScrollTextwrap{
         font-size: 30px;
-        margin-top: 0px;
+        margin-top: -200px;
         overflow: hidden;
     }
 }
