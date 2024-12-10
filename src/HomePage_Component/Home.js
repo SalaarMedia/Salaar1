@@ -23,7 +23,7 @@ export const Home = () => {
       {/* <Founder/> */}
       {/* <Testimonial/> */}
       {/* <Motivation/> */}
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }
