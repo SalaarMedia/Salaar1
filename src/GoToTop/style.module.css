@@ -31,3 +31,37 @@
       transform: translateY(1rem);
     }
   }
+
+  @media screen and (max-width:600px){
+
+    .GoToTop{
+      border: 2px solid white;
+      width: 100%;
+      height: 200px;
+    }
+    
+    .GoToTop button{
+      border: none;
+      outline: none;
+      background: linear-gradient(0deg, rgba(120,95,238,1) 0%, rgba(101,143,253,1) 100%);
+      font-size: 2.4rem;
+      width: 4rem;
+      height: 4rem;
+      color: #fff;
+      border-radius: 50%;
+      position: fixed;
+      bottom: 5rem;
+      left: 0rem;
+      z-index: 999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      
+  }
+
+
+
+
+
+  }
