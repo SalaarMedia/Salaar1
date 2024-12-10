@@ -14,66 +14,66 @@ gsap.registerPlugin(useGSAP,TextPlugin,ScrollTrigger)
 function HomePageHeader() {
 
 const box=useRef()
-useGSAP(()=>{
-  const tl=gsap.timeline()
+// useGSAP(()=>{
+//   const tl=gsap.timeline()
  
-  gsap.from('#headerImage',{
-    x:'100%',
-    duration:1,
-    ease:'bounce',
+//   gsap.from('#headerImage',{
+//     x:'100%',
+//     duration:1,
+//     ease:'bounce',
    
-  })
+//   })
 
-  gsap.to('#ourWorkPara',{
-    duration:7,
-      text: "Brands | Tech | Media | Production | IT", 
-      repeat:-1,
-      ease:'none'
-  })
+//   gsap.to('#ourWorkPara',{
+//     duration:7,
+//       text: "Brands | Tech | Media | Production | IT", 
+//       repeat:-1,
+//       ease:'none'
+//   })
 
-  tl.from("#box1",{
-    scale:0.5,
-    duration:0.5,
-    opacity:0,
-    zIndex:3,
-  })
-  tl.from("#box2",{
-    scale:0.5,
-    duration:0.5,
-    opacity:0,
-    zIndex:3,
+//   tl.from("#box1",{
+//     scale:0.5,
+//     duration:0.5,
+//     opacity:0,
+//     zIndex:3,
+//   })
+//   tl.from("#box2",{
+//     scale:0.5,
+//     duration:0.5,
+//     opacity:0,
+//     zIndex:3,
 
-  })
-  tl.from("#box3",{
-    scale:0.5,
-    duration:0.5,
-    opacity:0,
-    zIndex:3,
+//   })
+//   tl.from("#box3",{
+//     scale:0.5,
+//     duration:0.5,
+//     opacity:0,
+//     zIndex:3,
 
-  })
+//   })
 
-  tl.from("#box4",{
-    scale:0.5,
-    duration:0.5,
-    opacity:0,
-    zIndex:3,
+//   tl.from("#box4",{
+//     scale:0.5,
+//     duration:0.5,
+//     opacity:0,
+//     zIndex:3,
 
-  })
+//   })
 
-  tl.from("#contentWraper",{
-    left:'-100%',
-    opacity:0,
-    ease:'bounce',
-    zIndex:1,
+//   tl.from("#contentWraper",{
+//     left:'-100%',
+//     opacity:0,
+//     ease:'bounce',
+//     zIndex:1,
     
-  })
+//   })
 
-  tl.from('#bannerPara',{
-    y:'50px',
-    opacity:0,
-  })
+//   tl.from('#bannerPara',{
+//     y:'50px',
+//     opacity:0,
+//   })
 
-},{scope:box})
+// },{scope:box})
 
 
 

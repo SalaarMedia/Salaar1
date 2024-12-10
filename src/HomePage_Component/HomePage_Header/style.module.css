@@ -172,6 +172,7 @@
     background: transparent;
     width: 100vw;
     height: 100vh;
+    border: 5px solid red;
     
 }
 
@@ -184,15 +185,21 @@
     position: absolute;
     top: -10px;
     left: 130px;
+    border: 5px solid red;
+
 }
 
 .contentWraper h1{
     font-size: 50px;
+    border: 5px solid red;
+
 }
 .contentWraper h4{
     font-size: 26px;
     display: flex;
     margin-top: -40px;
+    border: 5px solid red;
+
 }
 
 .boxWraper{
@@ -201,6 +208,8 @@
     position: absolute;
     top: 20px;
     left:20px;
+    border: 5px solid red;
+
 
 }
 
@@ -210,6 +219,8 @@
     width: 15px;
     transform:skewX(-25deg);
     margin-left: 8px;
+    border: 5px solid red;
+
 }
 
 .bannerPara{
@@ -224,6 +235,8 @@
     top: 200px;
     left: 20px;
     font-size: 20px;
+    border: 5px solid red;
+
 }
 
    
@@ -233,6 +246,8 @@
         margin-top: 200px;
         height: 320px;
         margin-left: 10px;
+    border: 5px solid red;
+        
        
     }
 
