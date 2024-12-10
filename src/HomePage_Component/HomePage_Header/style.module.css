@@ -1,0 +1,241 @@
+.HomePageHeaderContainer
+{
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+.boxWraper{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+
+}
+
+.boxWraper div{
+    
+    height: 150px;
+    width: 30px;
+    transform:skewX(-25deg);
+    margin-left: 8px;
+}
+
+
+.box1{
+    background-color: blueviolet;
+}
+.box2{
+    background-color: rgb(43, 226, 89);
+}
+.box3{
+    background-color: rgb(235, 6, 235);
+}
+.box4{
+    background-color: rgb(118, 0, 228);
+}
+
+.contentWraper{
+    
+    width: 560px;
+    transform: skewX(-25deg);
+    position: absolute;
+    top: 130px;
+    left: 270px;
+    
+}
+
+
+.contentWraper h1{
+    font-size: 100px;
+}
+.contentWraper h4{
+    font-size: 60px;
+    display: flex;
+    margin-top: -70px;
+}
+.trans{
+    color: rgb(236, 7, 236);
+}
+
+.bannerPara{
+    font-size: 28px;
+    position: absolute;
+    padding: 20px;
+    top: 360px;
+    left: 60px;
+    margin-top: 30px;
+    font-weight: bold;
+    background: linear-gradient(rgb(118, 0, 228),rgb(249, 3, 249));
+    border-radius: 5px;
+}
+
+
+.ourWorkPara{
+    color: white;
+    position: absolute;
+    bottom: 120px;
+    left: 60px;
+    font-size: 40px;
+}
+
+
+.headerImage{
+    perspective: 800;
+    height: 85%;
+    transform: rotateY(180deg);
+    position: absolute;
+    right: 0;
+    top:70px;
+   
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+.HomePageHeaderContainer
+{
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.contentWraper{
+    width: 560px;
+    transform: skewX(-25deg);
+    position: absolute;
+    top: 0px;
+    left: 260px;
+}
+
+.contentWraper h1{
+    font-size: 100px;
+}
+.contentWraper h4{
+    font-size: 55px;
+    display: flex;
+    margin-top: -70px;
+}
+
+.boxWraper{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 70px;
+    left:100px;
+
+}
+
+.bannerPara{
+    width: 100%;
+    font-size: 30px;
+    padding: 20px;
+    top: 220px;
+    left: 0px;
+}
+
+.ourWorkPara{
+    top: 320px;
+    left: 60px;
+    font-size: 40px;
+}
+
+   
+
+    .headerImage{
+        position: relative;
+        margin-top: 330px;
+        height: 700px
+       
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .HomePageHeaderContainer
+{
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+
+.contentWraper{
+    
+    width: 560px;
+    transform: skewX(-25deg);
+    position: absolute;
+    top: -10px;
+    left: 130px;
+}
+
+.contentWraper h1{
+    font-size: 50px;
+}
+.contentWraper h4{
+    font-size: 26px;
+    display: flex;
+    margin-top: -40px;
+}
+
+.boxWraper{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left:20px;
+
+}
+
+.boxWraper div{
+    
+    height: 80px;
+    width: 15px;
+    transform:skewX(-25deg);
+    margin-left: 8px;
+}
+
+.bannerPara{
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    top: 100px;
+    left: 0px;
+}
+
+.ourWorkPara{
+    top: 200px;
+    left: 20px;
+    font-size: 20px;
+}
+
+   
+
+    .headerImage{
+        position: relative;
+        margin-top: 200px;
+        height: 320px;
+        margin-left: 10px;
+       
+    }
+
+
+}
+

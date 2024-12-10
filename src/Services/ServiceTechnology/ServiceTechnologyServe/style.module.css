@@ -1,0 +1,91 @@
+.ServiceTechnologyServe{
+    margin-top: 100px;
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.ServiceTechnologyServe h1{
+    font-size: 60px;
+    width: 80%;
+    padding-left: 40px;
+
+}
+
+.ServiceTechnologyServe h4{
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.ServiceTechnologyServeList{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.ServiceTechnologyServeList ul li{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 30px;
+    
+    
+}
+
+.ServiceTechnologyServe h5{
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    .ServiceTechnologyServe{
+        margin-top: 100px;
+        margin-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    .ServiceTechnologyServe h1{
+        font-size: 50px;
+        width: 100%;
+        padding-left: 0px;
+    
+    }
+    
+    .ServiceTechnologyServe h4{
+        font-size: 30px;
+        padding-left: 0px;
+    }
+    
+    .ServiceTechnologyServeList{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: column;
+        text-align: center; 
+    }
+    
+    .ServiceTechnologyServeList ul li{
+        list-style: none;
+        margin-top: 20px;
+        font-size: 30px;
+        padding: 20px 0;
+        width: 300px;
+        margin-left: -40px;
+        background: linear-gradient(0deg, rgba(120,95,238,1) 0%, rgba(101,143,253,1) 100%);
+        
+        
+    }
+    
+    .ServiceTechnologyServe h5{
+        font-size: 30px;
+        padding-left: 0px;
+        text-align: center;
+        background: crimson;
+        padding: 20px 0;
+    }
+    
+}

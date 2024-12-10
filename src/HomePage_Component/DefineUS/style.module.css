@@ -1,0 +1,117 @@
+.defineUsContainer{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.sectionLeft{
+   width: 40%;  
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0;
+   margin: 0;
+    }
+    
+.sectionLeft h1{
+ 
+    font-size: 60px;
+
+    }
+    
+.sectionLeft h2{
+    font-size: 100px;
+    margin-top: -30px;       
+    }
+    
+    .sectionRight{
+      
+        width: 60%;
+         
+    }
+    
+    .sectionRight p:nth-child(1){
+        font-size: 40px;
+        font-weight: 600;
+        
+    }
+    
+    .sectionRight p:nth-child(2){
+        font-size: 22px;
+        
+    }
+    
+    .sectionRight button{
+        background: linear-gradient(rgb(118, 0, 228),rgb(249, 3, 249));
+        padding: 20px 60px;
+        font-size: 20px;
+        font-weight: bold;
+    
+    }
+
+    .sectionRight p:nth-child(1){
+        line-height: 45px;
+    }
+
+    .sectionRight p{
+        padding-right: 40px;
+        line-height: 30px;
+    }
+
+
+    @media screen and (max-width: 1024px) {
+        .defineUsContainer{
+            flex-wrap:wrap;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .defineUsContainer{
+            flex-wrap:wrap;
+            
+        }
+        .sectionLeft{
+            width: 100%;
+            text-align: center;
+            height: 150px;
+        }
+        .sectionLeft h1{
+            font-size: 40px;
+        }
+        .sectionLeft h2 i{
+            transform: rotate(90deg);
+            font-size: 40px;
+        }
+
+        .sectionRight{
+            width: 100%;
+           
+        }
+
+        .sectionRight p:nth-child(1){
+            line-height: 45px;
+            font-size: 30px;
+            text-align: center;
+            
+        }
+
+        .sectionRight p:nth-child(2){
+            text-align: justify;
+            padding: 20px;
+        }
+    
+        .sectionRight p{
+            padding: 10px;
+            line-height: 30px;
+        }
+
+       .btnWraper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+       }
+    }

@@ -1,0 +1,248 @@
+.bussinessContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bussinessContent{
+    width: 45%;
+}
+.bussinessContent h1{
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+}
+.bussinessContent h1 svg{
+    width: 150px;
+    height: 100px;
+}
+
+.bussinessContent h1 span{
+    padding-top: 20px;
+}
+
+.bussinessContent ul{
+   
+    margin-top: -70px;
+    padding-left: 150px;
+}
+
+.bussinessContent ul li{
+    
+    font-size: 30px;
+    list-style: none;
+    margin-top: 15px;
+}
+
+
+.bussinessImgWrapper{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 50px;
+    position: relative;
+}
+.imgWrapper{
+    width: 300px;
+    height: 400px;
+    border: 1px solid white;
+    position: relative;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+
+
+.imgWrapper img:nth-child(1){
+    position: absolute;
+    top: 5%;
+    left: -50px;
+    height: 60px;
+}
+
+.imgWrapper img:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    left: -70px;
+    height: 100px;
+}
+
+.imgWrapper img:nth-child(3){
+    position: absolute;
+    bottom: 0;
+    right: -100px;
+    height: 100px;
+}
+
+.imgWrapper img:nth-child(4){
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    height: 150px;
+    transform: translate(-50%,50%);
+}
+
+.imgWrapper img:nth-child(5){
+    position: absolute;
+    top: 20%;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.imgWrapper img:nth-child(6){
+    position: absolute;
+    bottom: 13%;
+    left: 40px;
+    height: 50px;
+    width: 50px;
+}
+
+.imgWrapper img:nth-child(7){
+    position: absolute;
+    top: 13%;
+    left: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.imgWrapper img:nth-child(8){
+    position: absolute;
+    bottom: 5%;
+    left: 150px;
+    height: 50px;
+    width: 50px;
+}
+
+
+.imgWrapper img:nth-child(9){
+    position: absolute;
+    top: 5%;
+    left: 150px;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    .bussinessContainer{
+        flex-wrap: wrap;
+    }
+
+    .bussinessContent{
+        width: 100%;
+    }
+    .bussinessContent h1{
+        display: flex;
+        align-items: center;
+        font-size: 60px;
+    }
+    .bussinessContent h1 svg{
+        margin-left: -40px;
+    }
+    
+  
+    
+    .bussinessContent ul{
+       
+        margin-top: -30px;
+        padding-left: 110px;
+    }
+    
+  
+    
+    
+    .bussinessImgWrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 50px;
+        position: relative;
+    }
+    .imgWrapper{
+        width: 300px;
+        height: 400px;
+        border: 1px solid white;
+        position: relative;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    
+    
+    .imgWrapper img:nth-child(1){
+        position: absolute;
+        top: 5%;
+        left: -50px;
+        height: 60px;
+    }
+    
+    .imgWrapper img:nth-child(2){
+        position: absolute;
+        bottom: 0;
+        left: -70px;
+        height: 100px;
+    }
+    
+    .imgWrapper img:nth-child(3){
+        position: absolute;
+        top: -120px;
+        right: -25px;
+        height: 100px;
+        transform: rotate(-90deg);
+    }
+    
+    .imgWrapper img:nth-child(4){
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        height: 150px;
+        transform: translate(-50%,50%);
+    }
+    
+    .imgWrapper img:nth-child(5){
+        position: absolute;
+        top: 20%;
+        right: 10px;
+        height: 50px;
+        width: 50px;
+        
+    }
+    
+    .imgWrapper img:nth-child(6){
+        position: absolute;
+        bottom: 13%;
+        left: 40px;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .imgWrapper img:nth-child(7){
+        position: absolute;
+        top: 13%;
+        left: 50px;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .imgWrapper img:nth-child(8){
+        position: absolute;
+        bottom: 5%;
+        left: 150px;
+        height: 50px;
+        width: 50px;
+    }
+    
+    
+    .imgWrapper img:nth-child(9){
+        position: absolute;
+        top: 5%;
+        left: 150px;
+        height: 50px;
+        width: 50px;
+    }
+    
+    
+}

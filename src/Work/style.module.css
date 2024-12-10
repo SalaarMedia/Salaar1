@@ -1,0 +1,167 @@
+.WorkMainContainer{
+    width: 100%;
+    
+}
+
+.workHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.workHeaderContent{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.workHeaderContent h2{
+    margin-top: 50px;
+    font-size: 60px;
+}
+.workHeaderImage{
+    width: 50%;
+}
+
+.workHeaderImage img{
+    width: 100%;
+}
+
+
+.ourProjectCont{
+    margin-top: 100px;
+}
+
+.ourProjectWtaper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ourProjectContent{
+    width: 40%;
+}
+
+.ourProjectContent img{
+    width: 100%;
+
+}
+
+.ourProjectContent h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.ourProjectContent h2{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+
+.detailswrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detailswrap ul{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.detailswrap ul li:nth-child(1){
+    list-style: none;
+}
+
+
+@media screen and (max-width : 600px) {
+
+
+
+    .WorkMainContainer{
+        width: 100%;
+        
+    }
+    
+    .workHeader{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    
+    .workHeaderContent{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .workHeaderContent h2{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    .workHeaderImage{
+        width: 100%;
+    }
+    
+    .workHeaderImage img{
+        width: 100%;
+    }
+    
+    
+    .ourProjectCont{
+        margin-top: 50px;
+    }
+    
+    .ourProjectWtaper{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .ourProjectContent{
+        width: 100%;
+    }
+    
+    .ourProjectContent img{
+        width: 100%;
+    
+    }
+    
+    .ourProjectContent h1{
+        font-size: 30px;
+        letter-spacing: 3px;
+        background: crimson;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .ourProjectContent h2{
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+    
+    
+    .detailswrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .detailswrap ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        font-size: 20px;
+    }
+    
+    .detailswrap ul li:nth-child(1){
+        list-style: none;
+    }
+
+    
+}

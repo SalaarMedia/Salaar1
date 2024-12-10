@@ -1,0 +1,25 @@
+.ourWorksContainer{
+    width: 100%;
+    margin-top: 200px;
+   
+}
+.ourWorksHeader{
+    font-size: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .ourWorksContainer{
+        width: 100%;
+        margin-top: 300px;
+       
+    }
+
+    .ourWorksHeader{
+        width: 90%;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+    }
+    
+}

@@ -1,0 +1,67 @@
+.ServiceMarketingHeader{
+    display: flex;
+    justify-content: space-around;
+}
+.ServiceMarketingHeaderBox1{
+display: flex;
+align-items: start;
+padding-top: 100px;
+}
+
+.ServiceMarketingHeaderBox1 img{
+    width: 800px;
+}
+
+.ServiceMarketingHeaderBox2{
+    width: 50%;
+}
+.ServiceMarketingHeaderBox2 h1{
+    font-size: 30px;
+}
+.ServiceMarketingHeaderBox2 h2{
+    font-size: 100px;
+    margin-top: 200px;
+}
+
+.ServiceMarketingHeaderBox2 h3{
+    font-size: 60px;
+}
+
+@media screen and (max-width:600px) {
+
+
+    .ServiceMarketingHeader{
+        flex-direction: column;
+    }
+    .ServiceMarketingHeaderBox1{
+        width: 100%;
+    display: flex;
+    align-items: start;
+    padding-top: 10px;
+    }
+    
+    .ServiceMarketingHeaderBox1 img{
+        width: 100%;
+    }
+    
+    .ServiceMarketingHeaderBox2{
+        width: 100%;
+    }
+    .ServiceMarketingHeaderBox2 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .ServiceMarketingHeaderBox2 h2{
+        font-size: 60px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .ServiceMarketingHeaderBox2 h3{
+        font-size: 40px;
+        text-align: center;
+    }
+
+
+    
+}

@@ -1,0 +1,87 @@
+.CareerOpening{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.CareerOpeningheader{
+margin-bottom: 100px;
+text-align: center;
+font-size: 50px;
+
+}
+.CareerOpeningImgBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.CareerOpeningWraper{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.CareerOpeningWraper .CareerOpeningImgBox{
+   
+    width: 25%;
+}
+
+.CareerOpeningImgBox h2{
+    font-size: 16px;
+}
+
+.CareerOpeningImgBox img{
+    height: 380px;
+    width: 200px;
+}
+
+@media screen and (max-width:600px) {
+
+
+    .CareerOpening{
+        margin-top: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .CareerOpeningheader{
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 50px;
+    
+    }
+    .CareerOpeningImgBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .CareerOpeningWraper{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        flex-direction: column;
+        
+    }
+    
+    .CareerOpeningWraper .CareerOpeningImgBox{
+       
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    
+    .CareerOpeningImgBox h2{
+        font-size: 16px;
+    }
+    
+    .CareerOpeningImgBox img{
+        height: 380px;
+        width: 200px;
+    }
+
+
+    
+}

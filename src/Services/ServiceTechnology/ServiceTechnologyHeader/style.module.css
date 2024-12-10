@@ -1,0 +1,69 @@
+.ServiceTechnologyHeader{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.ServiceTechnologyHeaderBox1{
+display: flex;
+align-items: center;
+}
+
+.ServiceTechnologyHeaderBox1 img{
+    width: 400px;
+}
+
+.ServiceTechnologyHeaderBox1 img{
+    width: 700px;
+}
+
+.ServiceTechnologyHeaderBox2{
+    width: 50%;
+}
+.ServiceTechnologyHeaderBox2 h1{
+    font-size: 30px;
+}
+.ServiceTechnologyHeaderBox2 h2{
+    font-size: 100px;
+}
+
+.ServiceTechnologyHeaderBox2 h3{
+    font-size: 60px;
+}
+
+
+@media screen and (max-width :600px) {
+
+    .ServiceTechnologyHeader{
+        display: flex;
+        flex-direction: column;
+    }
+    .ServiceTechnologyHeaderBox1{
+        width: 100%;
+    
+    }
+    
+    .ServiceTechnologyHeaderBox1 img{
+        width: 100%;
+        height: 450px;
+        
+    }
+    
+    
+    
+    .ServiceTechnologyHeaderBox2{
+        width: 100%;
+        text-align: center;
+    }
+    .ServiceTechnologyHeaderBox2 h1{
+        font-size: 40px;
+    }
+    .ServiceTechnologyHeaderBox2 h2{
+        font-size: 60px;
+    }
+    
+    .ServiceTechnologyHeaderBox2 h3{
+        font-size: 40px;
+    }
+
+    
+}

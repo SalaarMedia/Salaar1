@@ -1,0 +1,67 @@
+.CareerFromHeader{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+.CareerFrom{
+    display: flex;
+    justify-content: center;
+}
+.CareerFrom from{
+    width: 50%;
+}
+
+.inputwraper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.inputwraper label{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.inputwraper input {
+    padding:10px 10px 10px 10px ;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width:600px) {
+
+    .CareerFromHeader{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .CareerFrom{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+    .CareerFrom from{
+        width: 100%;
+    }
+    
+    .inputwraper {
+    
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .inputwraper label{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .inputwraper input {
+        padding:10px 10px 10px 10px ;
+        border-radius: 10px;
+        background: none;
+        color: white;
+        font-size: 20px;
+    }
+    
+}

@@ -1,0 +1,60 @@
+.ServiceMarketingWork{
+    margin-top: 100px;
+    padding: 50px 100px;
+}
+
+.ServiceMarketingWorkBox1 h2{
+    font-size: 40px;
+}
+
+.ServiceMarketingWorkBox1 img{
+    height: 600px;
+    width: 100%;
+}
+
+.ServiceMarketingWork ul{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    font-size: 24px;
+    margin-left: -40px;
+}
+
+.ServiceMarketingWork ul li:nth-child(1){
+    list-style: none;
+}
+
+@media screen and (max-width:600px) {
+
+
+    .ServiceMarketingWork{
+        margin-top: 100px;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .ServiceMarketingWorkBox1 h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .ServiceMarketingWorkBox1 img{
+        height: 300px;
+        width: 100%;
+    }
+    
+    .ServiceMarketingWork ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 24px;
+        margin-left: -40px;
+    }
+    
+    .ServiceMarketingWork ul li:nth-child(1){
+        list-style: none;
+    }
+
+
+    
+}

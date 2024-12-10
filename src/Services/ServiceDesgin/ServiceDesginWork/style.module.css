@@ -1,0 +1,66 @@
+.ServiceDesginWork{
+    margin-top: 100px;
+    padding: 50px 100px;
+}
+
+.ServiceDesginWorkBox1 h2{
+    font-size: 40px;
+}
+
+.ServiceDesginWorkBox1 img{
+    height: 500px;
+    width: 100%;
+}
+
+.ServiceDesginWork ul{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    font-size: 24px;
+    margin-left: -40px;
+}
+
+.ServiceDesginWork ul li:nth-child(1){
+    list-style: none;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .ServiceDesginWork{
+        margin-top: 100px;
+        padding: 0px;
+    }
+    
+    .ServiceDesginWorkBox1 h2{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .ServiceDesginWorkBox1 h1{
+        
+        text-align: center;
+    }
+    
+    .ServiceDesginWorkBox1 img{
+        height: 200px;
+        width: 100%;
+    }
+    
+    .ServiceDesginWork ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 30px;
+        margin-left: -40px;
+    }
+    
+    .ServiceDesginWork ul li:nth-child(1){
+        list-style: none;
+    }
+
+
+
+
+    
+}

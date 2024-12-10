@@ -1,0 +1,146 @@
+.ServiceMarketingHowWe{
+    margin-top: 100px;
+    padding:0 200px ;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.HowWeDoHeader{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.HowWeDoHeader h1{
+    font-size: 60px;
+}
+
+.HowWeDoHeader h4{
+    font-size: 40px;
+}
+
+.boxWrapper1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxWrapper2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+
+.boxWrapper3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.HowWeDoIcon{
+    width: 100px;
+    height: 100px;
+}
+
+.HowWeDoIcon img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.ServiceMarketingHowWeBox1{
+    width: 40%;
+}
+
+.ServiceMarketingHowWeBox1 h1{
+    font-size: 30px;
+}
+
+.ServiceMarketingHowWeBox1 p{
+    font-size: 20px;
+}
+
+.HowWeDoFooter{
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .ServiceMarketingHowWe{
+        width: 100%;
+        margin-top: 100px;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    .HowWeDoHeader{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    
+    .HowWeDoHeader h1{
+        font-size: 30px;
+    }
+    
+    .HowWeDoHeader h4{
+        font-size: 20px;
+    }
+    
+    .boxWrapper1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .boxWrapper2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        flex-direction: column;
+    
+    }
+    
+    .boxWrapper3{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        flex-direction: column;
+    }
+    
+    .HowWeDoIcon{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .HowWeDoIcon img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    
+    .ServiceMarketingHowWeBox1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .ServiceMarketingHowWeBox1 h1{
+        font-size: 30px;
+    }
+    
+    .ServiceMarketingHowWeBox1 p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .HowWeDoFooter{
+        margin-top: 100px;
+        font-size: 40px;
+    }
+
+    
+}

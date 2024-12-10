@@ -1,0 +1,77 @@
+.ServiceDesginHeader{
+    display: flex;
+    justify-content: space-around;
+}
+.ServiceDesginHeaderBox1{
+display: flex;
+align-items: start;
+z-index: 3;
+}
+
+.ServiceDesginHeaderBox1 img{
+width: 700px;
+transform: rotateY(180deg);
+}
+
+.ServiceDesginHeaderBox2{
+    width: 50%;
+    z-index: 1;
+    
+    
+    
+}
+.ServiceDesginHeaderBox2 h1{
+    font-size: 30px;
+}
+.ServiceDesginHeaderBox2 h2{
+    font-size: 100px;
+    margin-top: 150px;
+}
+
+.ServiceDesginHeaderBox2 h3{
+    font-size: 60px;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .ServiceDesginHeader{
+    flex-direction: column;
+    }
+    .ServiceDesginHeaderBox1{
+      width: 100%;
+      position: relative;
+    }
+    
+    .ServiceDesginHeaderBox1 img{
+    width: 600px;
+    transform: rotateY(0deg);
+    position: relative;
+    top: 0;
+    left: -200px;
+    
+    }
+    
+    .ServiceDesginHeaderBox2{
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+        
+        
+        
+    }
+    .ServiceDesginHeaderBox2 h1{
+        font-size: 30px;
+    }
+    .ServiceDesginHeaderBox2 h2{
+        font-size: 60px;
+        margin-top: 50px;
+    }
+    
+    .ServiceDesginHeaderBox2 h3{
+        font-size: 40px;
+        padding: 0 20px;
+    }
+
+    
+}

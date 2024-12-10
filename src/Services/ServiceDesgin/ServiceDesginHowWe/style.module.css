@@ -1,0 +1,168 @@
+.ServiceDesginHowWe{
+    margin-top: 100px;
+    padding:0 200px ;
+}
+
+.HowWeDoHeader{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.HowWeDoHeader h1{
+    font-size: 60px;
+}
+
+.HowWeDoHeader h4{
+    font-size: 40px;
+}
+
+.boxWrapper1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxWrapper2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+
+.boxWrapper3{
+    margin-top: 80px;
+}
+
+.HowWeDoIcon{
+    width: 100px;
+    height: 100px;
+}
+
+.HowWeDoIcon img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.ServiceDesginHowWeBox1{
+    width: 40%;
+}
+
+.ServiceDesginHowWeBox1 h1{
+    font-size: 30px;
+}
+
+.ServiceDesginHowWeBox1 p{
+    font-size: 20px;
+}
+
+.HowWeDoFooter {
+    margin-top: 100px;
+    font-size: 40px;
+    
+}
+
+.HowWeDoFooter span{
+   
+    color: crimson;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 15px;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .ServiceDesginHowWe{
+      text-align: center;
+       margin-top: 500px;
+        width: 100%;
+    }
+    
+    .HowWeDoHeader{
+        text-align: center;
+        width: 100%;
+        margin-left: -190px;
+    }
+    
+    .HowWeDoHeader h1{
+        font-size: 60px;
+        padding: 0 10px;
+        margin-left: -15px;
+    }
+    
+    .HowWeDoHeader h4{
+        font-size: 40px;
+    }
+    
+    .boxWrapper1{
+       flex-direction: column;
+       width: 100%;
+       
+       margin-left: -200px;
+    }
+    
+    .boxWrapper2{
+       flex-direction: column;
+       margin-left: -200px;
+       width: 100%;
+    
+    }
+    
+    .boxWrapper3{
+        width: 100%;
+       margin-left: -200px;
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    
+    .HowWeDoIcon{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .HowWeDoIcon img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    
+    .ServiceDesginHowWeBox1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .ServiceDesginHowWeBox1 h1{
+        font-size: 30px;
+    }
+    
+    .ServiceDesginHowWeBox1 p{
+        font-size: 24px;
+        padding: 0 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .HowWeDoFooter {
+        margin-top: 100px;
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+        margin-left: -200px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .HowWeDoFooter span{
+       
+        color: crimson;
+        text-decoration: underline;
+        text-decoration-style: dotted;
+        text-underline-offset: 15px;
+    }    
+
+    
+}

@@ -1,0 +1,87 @@
+.motivationContainer{
+    display: flex;
+}
+
+.leftSection{
+    width: 40%;
+    margin-left: 30px;
+}
+
+.accordingContainer{
+    display: flex;
+    
+}
+.accordingIcons{
+    font-size: 20px;
+}
+
+.accordingIcons button{
+    font-size: 100px;
+    font-weight: 500;
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.subIcon{
+    display: none;
+}
+
+.accordingContentheading{
+    font-size: 30px;
+}
+
+.accordingContentPara p{
+    font-size: 22px;
+}
+
+.accordingContentPara a{
+    font-size: 18px;
+}
+.rightSection{
+    width: 50%;
+    position: relative;
+}
+
+.rightSection img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+@media screen and (max-width:600px) {
+
+    .motivationContainer{
+        flex-direction: column;
+        height: 100vh;
+        margin-bottom: 300px;
+    }
+    
+    .leftSection{
+        width: 100%;
+        margin-left: 0px;
+        padding-right: 20px;
+    }
+
+    .rightSection {
+        width: 100%;
+        margin-top: 300px;
+    }
+    
+ 
+
+    .rightSection img{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    
+    }
+
+
+    
+}
+

@@ -1,0 +1,89 @@
+.OfficeImage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+.OfficeImageHeader{
+    text-align: center;
+}
+
+.OfficeImageHeader h2{
+    font-size: 30px;
+}
+
+.OfficeImageHeader h1{
+    font-size: 60px;
+}
+
+.OfficeImageWraper{
+   
+}
+.OfficeImageWraperBox1{
+    margin-top: 50px;
+}
+
+.OfficeImageWraperBox2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.OfficeImageWraperBox2 img{
+    height: 200px;
+    width: 500px;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .OfficeImage{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+    
+    }
+    .OfficeImageHeader{
+        text-align: center;
+    }
+    
+    .OfficeImageHeader h2{
+        font-size: 30px;
+    }
+    
+    .OfficeImageHeader h1{
+        font-size: 60px;
+    }
+    
+    .OfficeImageWraper{
+        width: 100%;
+       
+    }
+    .OfficeImageWraperBox1{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .OfficeImageWraperBox1 img{
+        width: 100%;
+    }
+    
+    .OfficeImageWraperBox2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+    
+    .OfficeImageWraperBox2 img{
+        height: 200px;
+        width: 100%;
+    } 
+    
+}

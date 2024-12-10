@@ -1,0 +1,132 @@
+.footerMainContainer{
+    padding-top: 70px;
+    padding-bottom: 100px;
+   
+}
+
+.footerWrapper{
+    display: flex;
+   
+    justify-content: space-around;
+}
+
+.footerWrapper a{
+    color: white;
+    text-decoration: none;
+}
+
+.footerWrapper a:hover{
+    color: #ff03ff;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+.fooetrContentBox1{
+    align-self: center;
+}
+
+.footerSocialIcons{
+    font-size: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(#ff03ff,#0fb5f7);
+    color: transparent;
+    background-clip: text;
+}
+
+.footerContentHeader{
+    font-size: 22px;
+}
+.footerWrapper ul {
+    
+}
+
+.footerWrapper ul li{
+    list-style: none;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: -35px;
+    font-size: 18px;
+    
+}
+
+.footerCopyright{
+width: 100%;
+text-align: center;
+margin-top: 50px;
+color: purple;
+font-size: 24px;
+}
+
+
+@media screen and (max-width:600px) {
+
+
+    .footerMainContainer{
+        padding-top: 70px;
+        padding-bottom: 100px;
+       
+    }
+    
+    .footerWrapper{
+       flex-direction: column;
+    }
+    
+.fooetrContentBox2{
+    text-align: center;
+}
+
+    .footerWrapper a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .footerWrapper a:hover{
+        color: #ff03ff;
+        text-decoration: underline;
+        text-underline-offset: 7px;
+    }
+    
+    .fooetrContentBox1{
+        align-self: center;
+    }
+    
+    .footerSocialIcons{
+        font-size: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        background: linear-gradient(#ff03ff,#0fb5f7);
+        color: transparent;
+        background-clip: text;
+    }
+    
+    .footerContentHeader{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .footerWrapper ul {
+        
+    }
+    
+    .footerWrapper ul li{
+        list-style: none;
+        margin-top: 20px;
+        text-align: left;
+        margin-left: -35px;
+        font-size: 28px;
+        text-align: center;
+        
+    }
+    
+    .footerCopyright{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    color: purple;
+    font-size: 24px;
+    }  
+    
+}

@@ -1,0 +1,175 @@
+.founderContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.founderContainerWraper{
+    padding: 40px;
+    display: flex;
+    
+   
+    background: linear-gradient(22deg, rgba(88,87,249,1) 30%, rgba(156,52,240,1) 100%);
+}
+
+.founderHeader{
+    width: 30%;
+  
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+.founderContent{
+    width: 40%;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    padding-left: 30px;
+}
+
+.svgWraper{
+    display: flex;
+    width: 35%;
+
+}
+
+.svgWraper svg{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-left: -30px;
+}
+
+.founderContent .founderSocial{
+    width: 30%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.founderImage{
+    width: 30%;
+}
+
+.founderImage img{
+    height: 300px;
+    padding-left: 100px;
+}
+
+.founderHeader2{
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+
+
+    .founderContainer{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+.founderContent h1{
+    font-size: 40px;
+    width: 40%;
+    text-align: center;
+    margin-left: -30px;
+}
+
+.founderContent h2{
+    width: 40%;
+    margin-top: -20px;
+    text-align: center;
+    line-height: 35px;
+    margin-left: -30px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+    .founderContainerWraper{
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: linear-gradient(22deg, rgba(88,87,249,1) 30%, rgba(156,52,240,1) 100%);
+    }
+    
+    .founderHeader{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 40px;
+        
+    }
+    .founderHeader1{
+        display: none;
+    }
+    
+    .svgWraper{
+        margin-top: -40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        width: 40%;
+    
+        margin-left: 25px;
+    }
+
+    .founderHeader2{
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .founderContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-left: 10px solid white;
+        border-right: 10px solid white;
+        padding-left: 30px;
+    }
+    
+    .svgWraper{
+        display: flex;
+        width: 35%;
+    
+    }
+    
+    .svgWraper svg{
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        margin-left: -30px;
+    }
+    
+    .founderContent .founderSocial{
+        width: 30%;
+        font-size: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .founderImage{
+        width: 40%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .founderImage img{
+        height: 300px;
+        margin-left: -40px;
+    }
+
+
+
+    
+}

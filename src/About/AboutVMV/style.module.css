@@ -1,0 +1,143 @@
+.AboutVMV{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    perspective: 800px;
+    transform-style: preserve-3d;
+}
+
+.AboutVMV section{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    /* background: rgba(255,255,255,0.5); */
+    backdrop-filter:blur(100px);
+    color: white;
+    perspective: 800px;
+    transform-style: preserve-3d;
+    
+}
+
+.AboutVision {
+    box-shadow: 10px 10px 30px 5px #fb5457;
+    backdrop-filter: blur(10px);
+}
+
+.AboutVision h1{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,0,5,1) 100%);
+    color: transparent;
+    background-clip: text;
+}
+
+
+.AboutMission {
+    box-shadow: 10px 10px 30px 5px #5857f9;
+}
+
+.AboutMission h1{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(88,87,249,1) 100%);
+    color: transparent;
+    background-clip: text;
+}
+
+
+
+
+.AboutValue {
+    box-shadow: 10px 10px 30px 5px #9c34f0;
+}
+
+
+.AboutValue h1{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(156,52,240,1) 100%);
+    color: transparent;
+    background-clip: text;
+}
+
+
+
+.AboutVMV section h1{
+    font-size: 40px;
+}
+
+
+.AboutVMV section p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:600px) {
+
+
+    .AboutVMV{
+        height: 100%;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    
+    .AboutVMV section{
+        width: 80%;
+        height: 500px;
+        text-align: center;
+       margin-top: 100px;
+        
+    }
+    
+    .AboutVision {
+        box-shadow: 10px 10px 30px 5px #fb5457;
+        backdrop-filter: blur(10px);
+    }
+    
+    .AboutVision h1{
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,0,5,1) 100%);
+        color: transparent;
+        background-clip: text;
+    }
+    
+    
+    .AboutMission {
+        box-shadow: 10px 10px 30px 5px #5857f9;
+    }
+    
+    .AboutMission h1{
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(88,87,249,1) 100%);
+        color: transparent;
+        background-clip: text;
+    }
+    
+    
+    
+    
+    .AboutValue {
+        box-shadow: 10px 10px 30px 5px #9c34f0;
+    }
+    
+    
+    .AboutValue h1{
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(156,52,240,1) 100%);
+        color: transparent;
+        background-clip: text;
+    }
+    
+    
+    
+    .AboutVMV section h1{
+        font-size: 40px;
+    }
+    
+    
+    .AboutVMV section p{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    
+}

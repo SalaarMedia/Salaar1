@@ -1,0 +1,112 @@
+.ServiceDesginToolsCont{
+   
+    margin-top: 100px;
+}
+
+.toolsHeader{
+    font-size: 40px;
+    text-align: center;
+}
+
+.ServiceDesginToolsimgWrap1{
+display: flex;
+justify-content: space-evenly;
+margin-top: 100px;
+
+}
+
+.ServiceDesginToolsimgWrap2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    
+    }
+
+.imgBox{
+   
+    padding: 30px 0;
+    width: 25%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+   
+}
+
+.imgBox img{
+    width: 150px;
+
+}
+
+.ServiceDesginToolsimgWrap1 .imgBox:nth-child(1){
+    background: linear-gradient(327deg, rgba(255,127,24,1) 0%, rgba(156,52,240,1) 54%, rgba(87,249,247,1) 100%);
+}
+
+.ServiceDesginToolsimgWrap1 .imgBox:nth-child(2){
+    background: linear-gradient(327deg, rgba(87,249,247,1) 0%, rgba(156,52,240,1) 54%, rgba(87,249,247,1) 100%);
+}
+
+.ServiceDesginToolsimgWrap1 .imgBox:nth-child(3){
+    background: linear-gradient(327deg, rgba(255,43,194,1) 0%, rgba(156,52,240,1) 54%, rgba(87,249,247,1) 100%);
+}
+
+.ServiceDesginToolsimgWrap2 .imgBox:nth-child(1){
+    background: linear-gradient(327deg, rgba(253,210,49,1) 0%, rgba(156,52,240,1) 54%, rgba(87,249,247,1) 100%); 
+}
+
+.ServiceDesginToolsimgWrap2 .imgBox:nth-child(2){
+    background: linear-gradient(327deg, rgba(0,0,0,1) 0%, rgba(156,52,240,1) 54%, rgba(87,249,247,1) 100%);
+}
+
+.ServiceDesginToolsimgWrap2 .imgBox:nth-child(3){
+    background: linear-gradient(327deg, rgba(10,207,131,1) 0%, rgba(156,52,240,1) 54%, rgba(87,249,247,1) 100%);
+}
+
+.ServiceDesginToolsimgWrap2 .imgBox:nth-child(2) img{
+    width: 135px;
+}
+
+.ServiceDesginToolsimgWrap2 .imgBox:nth-child(3) img{
+    width: 90px;
+}
+
+@media screen and (max-width : 600px) {
+
+    .ServiceDesginToolsCont{
+   
+        margin-top: 100px;
+    }
+    
+    .toolsHeader{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .ServiceDesginToolsimgWrap1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    flex-direction: column;
+    
+    }
+    
+    .ServiceDesginToolsimgWrap2{
+        flex-direction: column;
+        margin-top: 0px;
+        
+        }
+    
+    .imgBox{
+        width: 100%;
+        margin-top: 20px;
+         
+    }
+    
+    .imgBox img{
+        width: 150px;
+    
+    }
+
+    
+}

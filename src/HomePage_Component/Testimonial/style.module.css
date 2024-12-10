@@ -1,0 +1,130 @@
+.Testimonial{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background: linear-gradient(22deg, rgba(156,52,240,1) 30%, rgba(88,87,249,1) 100%);
+    color: black;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TestimonialContent{
+    width: 30%;
+}
+.TestimonialSlider{
+    width: 100%;
+    height: 80%;
+    padding-bottom: 100px;
+    
+    
+}
+.sliderBox1{
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: white;
+    box-shadow: 0 0 5px 5px black;
+    margin-top: 50px;
+    margin-left: 35px;
+    height: 300px;
+    margin-bottom: 300px;
+    
+}
+
+.sliderBox1 h1{
+    font-size: 20px;
+}
+
+.sliderBox1 img{
+    width: 100px;
+}
+
+.TestimonialContent {
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.swiper-pagination-bullet{
+    background: white !important;
+    opacity: 1 !important;
+    color: white !important;
+
+}
+
+.TestimonialContent h1{
+    font-size: 60px;
+}
+
+.TestimonialContent p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.TestimonialContent h3{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: -10px;
+}
+
+.start{
+    font-size: 20px;
+    color: goldenrod;
+}
+
+
+@media screen and (max-width:600px) {
+
+
+    .Testimonial{
+        height: 60%;
+        flex-wrap: wrap;
+    }
+    .TestimonialContent{
+        width: 30%;
+    }
+    .TestimonialSlider{
+        width: 100%;
+        height: 60%;
+        padding-bottom: 100px;
+        
+       
+        
+        
+    }
+    .sliderBox1{
+       
+      
+        
+    }
+    
+    .sliderBox1 h1{
+        font-size: 20px;
+    }
+    
+    .sliderBox1 img{
+        width: 100px;
+    }
+    
+    .TestimonialContent {
+        width: 100%;
+       padding: 0;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       
+    }
+    
+    .swiper-pagination-bullet{
+        background: white !important;
+        opacity: 1 !important;
+        color: white !important;
+    
+    }
+    
+  
+  
+    
+}

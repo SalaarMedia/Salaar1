@@ -1,0 +1,64 @@
+.ServiceTechnologyWork{
+    margin-top: 100px;
+    padding: 50px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.ServiceTechnologyWorkBox1 h2{
+    font-size: 40px;
+}
+
+.ServiceTechnologyWorkBox1 img{
+    height: 600px;
+    width: 100%;
+}
+
+.ServiceTechnologyWork ul{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    font-size: 24px;
+    margin-left: -40px;
+}
+
+.ServiceTechnologyWork ul li:nth-child(1){
+    list-style: none;
+}
+
+
+@media screen and (max-width:600px) {
+
+
+    .ServiceTechnologyWork{
+        margin-top: 100px;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    .ServiceTechnologyWorkBox1 h2{
+        font-size: 30px;
+    }
+    
+    .ServiceTechnologyWorkBox1 img{
+        height: 300px;
+        width: 100%;
+    }
+    
+    .ServiceTechnologyWork ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 24px;
+        margin-left: -40px;
+    }
+    
+    .ServiceTechnologyWork ul li:nth-child(1){
+        list-style: none;
+    }
+
+
+
+    
+}

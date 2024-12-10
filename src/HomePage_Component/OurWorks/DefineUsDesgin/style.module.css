@@ -1,0 +1,150 @@
+.desginContainer{
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desginContentSection{
+    width: 45%;
+}
+.desginContentSection h1{
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+}
+.desginContentSection h1 svg{
+    width: 150px;
+    height: 100px;
+}
+
+.desginContentSection h1 span{
+    padding-top: 20px;
+}
+
+.desginContentSection ul{
+   
+    margin-top: -70px;
+    padding-left: 150px;
+}
+
+.desginContentSection ul li{
+    
+    font-size: 30px;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.desginImageWraper{
+    width: 45%;
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 50px;
+
+   
+}
+
+.imageWrapper{
+    width: 250px;
+    height: 400px;
+    border: 1px solid white;
+    position: relative;
+    margin-right: 200px;
+    margin-top: 100px;
+
+}
+
+
+.imageWrapper img:nth-child(1){
+    position: absolute;
+    top: 20%;
+    left: -10px;
+    height: 150px;
+}
+
+.imageWrapper img:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    left: -30px;
+    height: 100px;
+}
+
+.imageWrapper img:nth-child(3){
+    position: absolute;
+    bottom: 0;
+    right: -100px;
+    height: 100px;
+}
+
+.imageWrapper img:nth-child(4){
+    position: absolute;
+    top: 20%;
+    right: -50px;
+    height: 150px;
+}
+
+.imageWrapper img:nth-child(5){
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    height: 30px;
+    width: 150px;
+    transform: translateX(-50%);
+}
+
+.imageWrapper img:nth-child(6){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 150px;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .desginContainer{
+        flex-wrap: wrap;
+    }
+    .desginContentSection{
+        width: 95%;
+    }
+
+    .desginContentSection h1 svg{
+        margin-left: -40px;
+    }
+
+    .desginContentSection h1 span{
+        font-size: 60px;
+    }
+    .desginContentSection ul{
+   
+        margin-top: -70px;
+        padding-left: 110px;
+    }
+    .desginContainer{
+        margin-top: -100px;
+    }
+    .desginImageWraper{
+        width: 100%;
+        justify-content:center;
+    }
+    
+    .imageWrapper{
+       
+        margin-right: 0px;
+        margin-top: 50px;
+    
+    }
+
+    .imageWrapper img:nth-child(3){
+        position: absolute;
+        bottom: 0;
+        right: -50px;
+        height: 100px;
+    }
+
+
+}

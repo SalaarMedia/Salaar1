@@ -1,0 +1,51 @@
+.AboutDetails{
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    margin-top: 100px;
+}
+
+.togglebtn{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.AboutDetailsContent p{
+    font-size: 50px;
+    padding-right: 150px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:600px) {
+
+    .AboutDetails{
+   
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 0px;
+        margin-top: 400px;
+    }
+    
+    .togglebtn{
+        cursor: pointer;
+        font-size: 30px;
+    }
+    
+    .AboutDetailsContent p{
+        font-size: 30px;
+        padding: 0 20px;
+        
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .AboutDetailsContent h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    
+}

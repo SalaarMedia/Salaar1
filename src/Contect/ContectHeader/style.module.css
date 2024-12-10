@@ -1,0 +1,146 @@
+.contectHeaderBox1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contectHeaderBox1 h1{
+    font-size: 100px;
+    padding-left: 40px;
+}
+
+.contectHeaderImage {
+    
+
+}
+
+.contectHeaderImage img{
+    margin-right: -100px;
+}
+
+.formSection {
+    padding-left: 40px;
+}
+
+.inputWraper{
+    margin-top: 40px;
+}
+
+.inputWraper label{
+    font-size: 30px;
+}
+.inputWraper input{
+    width: 300px;
+    background: none;
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+    padding-top: 20px;
+    border-bottom: 2px solid white;
+}
+
+.inputWraper input::placeholder{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.contectDetails h1 { 
+    text-align: center;
+    display: flex;
+}
+.contectDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.contectHeaderBox2{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width : 600px) {
+
+
+
+    .contectHeaderBox1{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .contectHeaderBox1 h1{
+        font-size: 60px;
+        padding-left: 0px;
+    }
+    
+    .contectHeaderImage {
+        margin-top: -70px;
+     width: 100%;
+    }
+    
+    .contectHeaderImage img{
+        margin-right: 0px;
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    .formSection {
+        padding-left: 40px;
+    }
+    
+    .inputWraper{
+        margin-top: 40px;
+    }
+    
+    .inputWraper label{
+        font-size: 30px;
+    }
+    .inputWraper input{
+        width: 300px;
+        background: none;
+        padding-bottom: 10px;
+        border: none;
+        outline: none;
+        padding-top: 20px;
+        border-bottom: 2px solid white;
+    }
+    
+    .inputWraper input::placeholder{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    .contectDetails h1 { 
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .contectDetails {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding-right: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .contectHeaderBox2{
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-between;
+    }   
+
+
+    
+}
