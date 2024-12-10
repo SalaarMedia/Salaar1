@@ -23,3 +23,12 @@
     }
     
 }
+
+@media screen and (max-width:600px) {
+
+     .ourWorksContainer{
+        width: 100%;
+        margin-top: 0px;
+       
+    }
+}
