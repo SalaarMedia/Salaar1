@@ -20,7 +20,7 @@ export const Home = () => {
       <DefineUS/>
       <OurWorks/>
       <PatnerClient/>
-      <Founder/>
+      {/* <Founder/> */}
       <Testimonial/>
       <Motivation/>
       <Footer/>
