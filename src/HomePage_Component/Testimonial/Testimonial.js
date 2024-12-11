@@ -3,7 +3,7 @@ import styles from './style.module.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { FreeMode, Pagination } from 'swiper/modules';
+import { Navigation,Autoplay,FreeMode, Pagination } from 'swiper/modules';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import logo from '../../Img/white 1.png'
@@ -70,7 +70,8 @@ const Testimonial = () => {
             <i class="fa-solid fa-star"></i>
             </span></h3>
         </section>
-        <Swiper
+        <section className={styles.firstwraper}
+>        <Swiper
          style={
           {
           '--swiper-navigation-color': '#fff',
@@ -120,6 +121,56 @@ const Testimonial = () => {
 
         </SwiperSlide>
       </Swiper>
+
+      </section>
+
+
+      <Swiper
+        spaceBetween={20}
+        centeredSlides={true}
+        className={styles.TestimonialSlider1}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        
+      >
+        <SwiperSlide id='sliderBox3' className={styles.sliderBox2}>
+        <h1>“Thousands of U.S. Contractors Recommend Hanso’s Pergola Kit”</h1>
+        <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type </h4>
+        <img src={logo} alt=''/>
+
+        </SwiperSlide>
+  
+        <SwiperSlide id='sliderBox4' className={styles.sliderBox2}>
+        <h1>“Thousands of U.S. Contractors Recommend Hanso’s Pergola Kit”</h1>
+        <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type </h4>
+        <img src={logo} alt=''/>
+
+        </SwiperSlide>
+        <SwiperSlide id='sliderBox4' className={styles.sliderBox2}>
+        <h1>“Thousands of U.S. Contractors Recommend Hanso’s Pergola Kit”</h1>
+        <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type </h4>
+        <img src={logo} alt=''/>
+
+        </SwiperSlide>
+      </Swiper>
+
+
+
+
+
+
+
+
+
+
+
     </div>
   )
 }

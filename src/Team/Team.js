@@ -11,7 +11,7 @@ const Team = () => {
        <TeamHeader/>
        <TeamImage/>
        <OfficeImage/>
-       <Footer/>
+       
     </div>
   )
 }

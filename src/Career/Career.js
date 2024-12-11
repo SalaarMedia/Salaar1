@@ -11,7 +11,6 @@ const Career = () => {
       <CareerHeader/>
       <CareerOpening/>
       <CareerFrom/>
-      <Footer/>
     </div>
   )
 }

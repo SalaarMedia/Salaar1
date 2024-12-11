@@ -70,27 +70,40 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 0%;
+        margin-top: 100px;
     }
     
 
 .founderContent h1{
     font-size: 40px;
-    width: 40%;
+    width: 100%;
     text-align: center;
-    margin-left: -30px;
+    margin-left: -35px;
+
+    
 }
 
+
+
 .founderContent h2{
-    width: 40%;
+    width: 100%;
     margin-top: -20px;
     text-align: center;
     line-height: 35px;
-    margin-left: -30px;
-    padding: 20px;
+    margin-left: -35px;
+    padding: 0px;
     font-size: 30px;
+    
 }
 
     .founderContainerWraper{
+        position: relative;
+        width: 100%;
+        padding: 0;
+        margin: 0;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
@@ -102,6 +115,7 @@
         justify-content: center;
         width: 100%;
         font-size: 40px;
+       
         
     }
     .founderHeader1{
@@ -113,29 +127,31 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        width: 40%;
-    
-        margin-left: 25px;
+        width: 100%;
+        margin-left: -10px;
+        
     }
 
     .founderHeader2{
         display: block;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 40px;
         text-align: center;
+        width: 100%;
     }
     
     .founderContent{
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        border-left: 10px solid white;
-        border-right: 10px solid white;
+       border: none;
         padding-left: 30px;
     }
+    
     
     .svgWraper{
         display: flex;
@@ -149,23 +165,29 @@
         justify-content: center;
         margin-left: -30px;
     }
+    .founderContenth2{
+        width: 100%;
+    }
     
     .founderContent .founderSocial{
         width: 30%;
         font-size: 30px;
         display: flex;
         justify-content: space-between;
+        
     }
     
     .founderImage{
-        width: 40%;
+        width: 100%;
         margin-top: 50px;
         display: flex;
-        justify-content: start;
+        justify-content:center;
+        align-items: center;
+       
     }
     
     .founderImage img{
-        height: 300px;
+        height: 350px;
         margin-left: -40px;
     }
 

@@ -104,7 +104,7 @@ const Technology = () => {
             <circle cx="100" cy="50" r="27" stroke-width="2" fill="#5857f9" />
             
          </svg>
-         <span id='Technology'>Technology</span>
+         <span id='Technology' style={{paddingLeft:'10px'}}>Technology</span>
         </h1>
         <ul id='techlist'>
             <li>Web Design</li>

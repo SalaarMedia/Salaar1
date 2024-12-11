@@ -10,7 +10,6 @@ import reckrut from '../Img/work/reckrut.jpg'
 import rigi from '../Img/work/rigi.webp'
 import sps from '../Img/work/sps.jpg'
 import travelxp from '../Img/work/travelxp.jpg'
-import Footer from '../HomePage_Component/Footer/Footer'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { TextPlugin } from "gsap/TextPlugin";
@@ -148,7 +147,7 @@ let projectData=[
               </div>
             </section>
       </div>
-      <Footer/>
+     
     </div>
   )
 }

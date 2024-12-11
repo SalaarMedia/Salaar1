@@ -5,7 +5,6 @@ import ServiceDesginServe from './ServiceDesginServe/ServiceDesginServe'
 import ServiceDesginHowWe from './ServiceDesginHowWe/ServiceDesginHowWe'
 import ServiceDesginTools from './ServiceDesginTools/ServiceDesginTools'
 import ServiceDesginWork from './ServiceDesginWork/ServiceDesginWork'
-import Footer from '../../HomePage_Component/Footer/Footer'
 const ServiceDesgin = () => {
   return (
     <div className={styles.serviceDesdinCont}>
@@ -14,7 +13,7 @@ const ServiceDesgin = () => {
       <ServiceDesginHowWe/>
       <ServiceDesginTools/>
       <ServiceDesginWork/>
-      <Footer/>
+     
       
     </div>
   )

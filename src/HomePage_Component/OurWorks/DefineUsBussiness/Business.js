@@ -155,7 +155,7 @@ const Business = () => {
             <circle cx="100" cy="50" r="27" stroke-width="2" fill="#9c34f0" />
             
          </svg>
-          <span id='Business'> Business </span>
+          <span id='Business' style={{paddingLeft:'20px'}}> Business </span>
         </h1>
         <ul id='Businesslist'>
             <li>Branding</li>

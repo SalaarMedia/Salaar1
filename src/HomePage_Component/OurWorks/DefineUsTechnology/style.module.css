@@ -124,7 +124,8 @@
 .technologyContent ul{
    
     margin-top: -70px;
-    padding-left: 120px;
+    padding-left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .technologyImgWrapper{
@@ -190,3 +191,72 @@
 }
 
 
+@media screen and (max-width:400px) {
+
+    .technologyContent h1 span {
+        font-size: 40px;
+    }
+
+
+    .technologyImgWrapper{
+   
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .imgWrapper{
+      
+        margin-right: 0px;
+        margin-top: 50px;
+    
+    }
+    
+    
+    .imgWrapper img:nth-child(1){
+        position: absolute;
+        top: 20%;
+        left: 0px;
+        height: 200px;
+        width: 250px;
+    }
+    
+    .imgWrapper img:nth-child(2){
+        position: absolute;
+        bottom: 40px;
+        right: -30px;
+        height: 70px;
+    }
+    
+    .imgWrapper img:nth-child(3){
+        position: absolute;
+        top: 0;
+        left: 30px;
+        height: 50px;
+    }
+    
+    .imgWrapper img:nth-child(4){
+        position: absolute;
+        top: 20%;
+        left: 0px;
+        height: 80px;
+        
+    }
+    
+    .imgWrapper img:nth-child(5){
+        position: absolute;
+        top: 40%;
+        left: 60%;
+        height: 70px;
+        width: 100px;
+        transform: translate(-50%,-50%);
+    }
+    
+    .imgWrapper img:nth-child(6){
+        position: absolute;
+        top: 50%;
+        left: -50%;
+        
+    }
+    
+}

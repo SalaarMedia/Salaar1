@@ -6,7 +6,6 @@ import OurWorks from './OurWorks/OurWorks'
 import PatnerClient from './Patner&Client/PatnerClient'
 import Founder from './FounderSection/Founder'
 import Motivation from './MotivationSection/Motivation'
-import Footer from './Footer/Footer'
 import Testimonial from './Testimonial/Testimonial'
 
 
@@ -19,11 +18,11 @@ export const Home = () => {
       <ScrollText/>
       <DefineUS/>
       <OurWorks/>
-      {/* <PatnerClient/> */}
-      {/* <Founder/> */}
-      {/* <Testimonial/> */}
-      {/* <Motivation/> */}
-      {/* <Footer/> */}
+      <PatnerClient/>
+      <Founder/>
+      <Testimonial/>
+      <Motivation/>
+     
     </div>
   )
 }

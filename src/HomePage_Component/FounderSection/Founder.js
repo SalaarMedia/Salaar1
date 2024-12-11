@@ -14,7 +14,7 @@ const Founder = () => {
 
    //    const founder=gsap.timeline({
    //       scrollTrigger:{
-   //          duration:10,
+    //          duration:10,
    //          trigger:"#founderContainer",
    //          start:'top 10%'
    //       }

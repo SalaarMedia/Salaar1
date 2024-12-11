@@ -246,3 +246,115 @@
     
     
 }
+
+@media screen and (max-width:400px) {
+
+    .bussinessContent h1{
+        display: flex;
+        align-items: center;
+        font-size: 50px;
+    }
+
+    .bussinessContent ul{
+       
+        margin-top: -30px;
+        padding-left: 130px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .bussinessImgWrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 50px;
+        position: relative;
+    }
+    .imgWrapper{
+        width: 250px;
+        height: 400px;
+        border: 1px solid white;
+        position: relative;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    
+    
+    .imgWrapper img:nth-child(1){
+        position: absolute;
+        top: -10%;
+        left: -0px;
+        height: 40px;
+    }
+    
+    .imgWrapper img:nth-child(2){
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+        height: 100px;
+    }
+    
+    .imgWrapper img:nth-child(3){
+        position: absolute;
+        top: -13%;
+        right: -0px;
+        height: 50px;
+        transform: rotate(-0deg);
+    }
+    
+    .imgWrapper img:nth-child(4){
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        height: 150px;
+        transform: translate(-50%,50%);
+    }
+    
+    .imgWrapper img:nth-child(5){
+        position: absolute;
+        top: 20%;
+        right: 10px;
+        height: 50px;
+        width: 50px;
+        
+    }
+    
+    .imgWrapper img:nth-child(6){
+        position: absolute;
+        bottom: 13%;
+        left: 130px;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .imgWrapper img:nth-child(7){
+        position: absolute;
+        top: 13%;
+        left: 10px;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .imgWrapper img:nth-child(8){
+        position: absolute;
+        bottom: 0%;
+        left: 190px;
+        height: 50px;
+        width: 50px;
+    }
+    
+    
+    .imgWrapper img:nth-child(9){
+        position: absolute;
+        top: 5%;
+        left: 100px;
+        height: 50px;
+        width: 50px;
+    }
+    
+
+
+
+    
+}

@@ -6,7 +6,8 @@
    }
 
    .swiper-backface-hidden .swiper-slide{
-    width: 72% !important;
+    width: 100% !important;
+    height: 90%;
     
    }
 

@@ -132,7 +132,7 @@ const Desgin = () => {
                 <circle cx="100" cy="50" r="27" stroke-width="2" fill="red" />
                 
              </svg>
-             <span id='Desgin'>Desgin</span>
+             <span id='Desgin' style={{paddingLeft:'20px'}}>Desgin</span>
         </h1>
         <ul  id="desginlist">
             <li>UI Design</li>

@@ -8,7 +8,7 @@ const Contect = () => {
     <div>
       <ContectHeader/>
       <LocationDetails/>
-      <Footer/>
+     
     </div>
   )
 }

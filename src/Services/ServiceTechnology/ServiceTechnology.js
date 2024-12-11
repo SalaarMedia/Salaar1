@@ -14,7 +14,7 @@ const ServiceTechnology = () => {
       <ServiceTechnologyHowWe/>
       <ServiceTechnologyTools/>
       <ServiceTechnologyWork/>
-      <Footer/>
+     
     </div>
   )
 }

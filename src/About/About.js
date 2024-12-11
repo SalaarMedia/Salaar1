@@ -11,7 +11,7 @@ const About = () => {
       <AboutDetails/>
       <AboutVMV/>
       
-      <Footer/>
+      
     </div>
   )
 }

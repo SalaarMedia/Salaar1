@@ -2,7 +2,7 @@
 import './App.css';
 import { Home } from './HomePage_Component/Home';
 import Menu from './HomePage_Component/Menu/Menu';
-import {createBrowserRouter,RouterProvider} from 'react-router-dom'
+import {BrowserRouter, createBrowserRouter,RouterProvider} from 'react-router-dom'
 import Work from './Work/Work';
 import About from './About/About';
 import Contect from './Contect/Contect';
@@ -12,6 +12,7 @@ import ServiceMarketing from './Services/ServiceMarketing/ServiceMarketing';
 import Team from './Team/Team';
 import Career from './Career/Career';
 import GoToTop from './GoToTop/GoToTop';
+import Footer from './HomePage_Component/Footer/Footer';
 
 
 function App() {
@@ -66,7 +67,10 @@ function App() {
     <div className="">
 
       <RouterProvider router={router}/>
+      <BrowserRouter>
+      <Footer/>
       <GoToTop/>
+      </BrowserRouter>
     </div>
   );
 }

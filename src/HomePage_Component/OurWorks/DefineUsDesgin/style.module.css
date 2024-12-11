@@ -112,6 +112,10 @@
         width: 95%;
     }
 
+    #Desgin{
+        padding-left: 20px;
+    }
+
     .desginContentSection h1 svg{
         margin-left: -40px;
     }
@@ -120,9 +124,11 @@
         font-size: 60px;
     }
     .desginContentSection ul{
-   
+        
         margin-top: -70px;
-        padding-left: 110px;
+        padding-left: 130px;
+        font-family: Arial, Helvetica, sans-serif;
+        
     }
     .desginContainer{
         margin-top: -100px;
@@ -135,16 +141,42 @@
     .imageWrapper{
        
         margin-right: 0px;
-        margin-top: 50px;
+        margin-top: 0px;
+        margin-left: -5px;
     
     }
 
     .imageWrapper img:nth-child(3){
         position: absolute;
         bottom: 0;
-        right: -50px;
+        right: -20px;
+        height: 70px;
+    }
+
+
+    .imageWrapper img:nth-child(4){
+        position: absolute;
+        top: 20%;
+        right: -30px;
         height: 100px;
     }
 
 
 }
+
+
+
+/* @media screen and (max-width:400px) {
+
+    .desginContentSection h1 span{
+        font-size: 60px;
+    }
+    .desginContentSection ul{
+        
+        margin-top: -70px;
+        padding-left: 130px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+} */

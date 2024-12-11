@@ -13,7 +13,6 @@ const ServiceMarketing = () => {
       <ServiceMarketingHowWe/>
       <ServiceMarketingTools/>
       <ServiceMarketingWork/>
-      <Footer/>
     </div>
   ) 
 }
