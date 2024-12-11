@@ -10,7 +10,7 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { TextPlugin } from "gsap/TextPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+ 
 
 
 const ServiceDesginHowWe = () => {

@@ -11,7 +11,7 @@ const ServiceDesginServe = () => {
 
   gsap.registerPlugin(useGSAP,TextPlugin,ScrollTrigger)
 
-  // useGSAP(()=>{
+  // useGSAP(()=>{ 
   //   let sd=gsap.timeline({
   //     scrollTrigger:{
   //       trigger:"#ServiceDesginServe",

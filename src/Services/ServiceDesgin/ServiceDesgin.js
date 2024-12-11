@@ -9,10 +9,10 @@ const ServiceDesgin = () => {
   return (
     <div className={styles.serviceDesdinCont}>
       <ServiceDesginHeader/>
-      <ServiceDesginServe/>
+       <ServiceDesginServe/>
       <ServiceDesginHowWe/>
-      <ServiceDesginTools/>
-      <ServiceDesginWork/>
+      {/*<ServiceDesginTools/>
+      <ServiceDesginWork/> */}
      
       
     </div>

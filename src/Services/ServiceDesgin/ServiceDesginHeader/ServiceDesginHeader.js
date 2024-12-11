@@ -7,7 +7,7 @@ import { TextPlugin } from "gsap/TextPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const ServiceDesginHeader = () => {
-
+ 
   gsap.registerPlugin(useGSAP,TextPlugin,ScrollTrigger)
 
   // useGSAP(()=>{
