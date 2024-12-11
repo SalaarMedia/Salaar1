@@ -67,9 +67,7 @@ function App() {
     <div className="">
 
       <RouterProvider router={router}/>
-      <BrowserRouter>
-      <Footer/>
-      </BrowserRouter>
+    
       <GoToTop/>
     </div>
   );

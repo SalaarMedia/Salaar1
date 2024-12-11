@@ -7,6 +7,7 @@ import PatnerClient from './Patner&Client/PatnerClient'
 import Founder from './FounderSection/Founder'
 import Motivation from './MotivationSection/Motivation'
 import Testimonial from './Testimonial/Testimonial'
+import Footer from './Footer/Footer'
 
 
 
@@ -22,7 +23,7 @@ export const Home = () => {
       <Founder/>
       <Testimonial/>
       <Motivation/>
-     
+      <Footer/>
     </div>
   )
 }
