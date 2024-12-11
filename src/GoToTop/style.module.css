@@ -51,7 +51,7 @@
       border-radius: 50%;
       position: fixed;
       bottom: 5rem;
-      left: 0rem;
+      right: 0rem;
       z-index: 999;
       display: flex;
       justify-content: center;

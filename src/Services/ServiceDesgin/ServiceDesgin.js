@@ -11,8 +11,8 @@ const ServiceDesgin = () => {
       <ServiceDesginHeader/>
        <ServiceDesginServe/>
       <ServiceDesginHowWe/>
-      {/*<ServiceDesginTools/>
-      <ServiceDesginWork/> */}
+      <ServiceDesginTools/>
+      <ServiceDesginWork/> 
      
       
     </div>
