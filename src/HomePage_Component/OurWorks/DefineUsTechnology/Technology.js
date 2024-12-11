@@ -14,84 +14,84 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 const Technology = () => {
 
   gsap.registerPlugin(useGSAP,TextPlugin,ScrollTrigger)
-// useGSAP(()=>{
-//   gsap.to('#circle1',{
-//     duration:5,
-//     rotateZ:'360deg',
-//     transformOrigin:'center',
-//     repeat:-1,
-//     ease:'none'
-//   })
+useGSAP(()=>{
+  gsap.to('#circle1',{
+    duration:5,
+    rotateZ:'360deg',
+    transformOrigin:'center',
+    repeat:-1,
+    ease:'none'
+  })
 
 
-//   let tl3=gsap.timeline({
-//     scrollTrigger:{
-//       trigger:'#technologyContainer',
-//       start:'top 50%'
-//     }
-//   })
+  let tl3=gsap.timeline({
+    scrollTrigger:{
+      trigger:'#technologyContainer',
+      start:'top 50%'
+    }
+  })
 
-// tl3.from('#t-svg',{
-//   duration:1,
-//   scale:0,
-// })
+tl3.from('#t-svg',{
+  duration:1,
+  scale:0,
+})
 
-// tl3.from('#Technology',{
-//   x:-200,
-//   opacity:0,
-//   ease:'bounce'
-// })
+tl3.from('#Technology',{
+  x:-200,
+  opacity:0,
+  ease:'bounce'
+})
 
-// gsap.from('#techlist li',{
-//   y:50,
-//   duration:1,
-//   stagger:1,
-//   opacity:0,
-//   scrollTrigger:{
-//     trigger:'#technologyContainer',
-//     start:'top 50%'
-//   }
-// })
-
-
-// let tl4=gsap.timeline({
-//   scrollTrigger:{
-//     trigger:'#technologyContainer',
-//     start:'top 50%'
-//   }
-// })
-
-// tl4.from('#t-img5',{
-//   scale:0,
-//   duration:1
-// })
-
-// tl4.from('#t-img1',{
-//   scale:0,
-//   duration:1
-// })
-
-// tl4.from('#t-img2',{
-//   x:200,
-//   opacity:0,
-//   duration:1
-// })
-
-// tl4.from('#t-img3',{
-//   x:-200,
-//   opacity:0,
-//   duration:1
-// })
-
-// tl4.from('#t-img4',{
-//   scale:0,
-//   opacity:0,
-//   duration:1
-// })
+gsap.from('#techlist li',{
+  y:50,
+  duration:1,
+  stagger:1,
+  opacity:0,
+  scrollTrigger:{
+    trigger:'#technologyContainer',
+    start:'top 50%'
+  }
+})
 
 
+let tl4=gsap.timeline({
+  scrollTrigger:{
+    trigger:'#technologyContainer',
+    start:'top 50%'
+  }
+})
 
-// })
+tl4.from('#t-img5',{
+  scale:0,
+  duration:1
+})
+
+tl4.from('#t-img1',{
+  scale:0,
+  duration:1
+})
+
+tl4.from('#t-img2',{
+  x:200,
+  opacity:0,
+  duration:1
+})
+
+tl4.from('#t-img3',{
+  x:-200,
+  opacity:0,
+  duration:1
+})
+
+tl4.from('#t-img4',{
+  scale:0,
+  opacity:0,
+  duration:1
+})
+
+
+
+})
 
 
   return (
