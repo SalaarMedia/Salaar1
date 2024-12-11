@@ -186,7 +186,7 @@
         width: 100%;
         position: relative;
          height: 350px;
-        bottom: 0;
+        bottom: -20px;
         left: 0;
     }
     
