@@ -19,106 +19,106 @@ const Desgin = () => {
 
   gsap.registerPlugin(useGSAP,TextPlugin,ScrollTrigger)
 
-  useGSAP(()=>{
-    let tl=gsap.timeline({
-      scrollTrigger:{
-        trigger:'#desginContainer',
-        start:'top 60%'
-      }
-    });
+  // useGSAP(()=>{
+  //   let tl=gsap.timeline({
+  //     scrollTrigger:{
+  //       trigger:'#desginContainer',
+  //       start:'top 60%'
+  //     }
+  //   });
 
-    let tl1=gsap.timeline({
+  //   let tl1=gsap.timeline({
     
-      scrollTrigger:{
-        trigger:'#desginContainer',
-        start:'top 30%'
-      }
-    });
+  //     scrollTrigger:{
+  //       trigger:'#desginContainer',
+  //       start:'top 30%'
+  //     }
+  //   });
 
-    tl1.from('#svganim',{
-      scale:0,
-      duration:1
-    })
-    tl1.from('#Desgin',{
-      x:-100,
-      opacity:0,
-      duration:1
+  //   tl1.from('#svganim',{
+  //     scale:0,
+  //     duration:1
+  //   })
+  //   tl1.from('#Desgin',{
+  //     x:-100,
+  //     opacity:0,
+  //     duration:1
 
-    })
+  //   })
 
-    gsap.from('#desginlist li',{
-      y:50,
-      duration:1,
-      stagger:1,
-      opacity:0,
-      scrollTrigger:{
-        trigger:'#desginContainer',
-        start:'top 50%'
-      }
-    })
+  //   gsap.from('#desginlist li',{
+  //     y:50,
+  //     duration:1,
+  //     stagger:1,
+  //     opacity:0,
+  //     scrollTrigger:{
+  //       trigger:'#desginContainer',
+  //       start:'top 50%'
+  //     }
+  //   })
 
    
 
-    gsap.to('#circle',{
-      duration:5,
-      rotateZ:'360deg',
-      transformOrigin:'center',
-      repeat:-1,
-      ease:'none'
-    })
+  //   gsap.to('#circle',{
+  //     duration:5,
+  //     rotateZ:'360deg',
+  //     transformOrigin:'center',
+  //     repeat:-1,
+  //     ease:'none'
+  //   })
     
-    tl.from("#imageWrapper",{
-      scale:0.5,
-      opacity:0,
-      duration:0.5,
-      x:400,
+  //   tl.from("#imageWrapper",{
+  //     scale:0.5,
+  //     opacity:0,
+  //     duration:0.5,
+  //     x:400,
      
-    })
+  //   })
 
-    tl.from("#img6",{
-      scale:0.5,
-      x:200,
-      opacity:0,
-      duration:0.5,
-    })
+  //   tl.from("#img6",{
+  //     scale:0.5,
+  //     x:200,
+  //     opacity:0,
+  //     duration:0.5,
+  //   })
 
-    tl.from("#img5",{
-      scale:0.5,
-      opacity:0,
-      duration:0.5,
-      rotate:'90deg'
-    })
+  //   tl.from("#img5",{
+  //     scale:0.5,
+  //     opacity:0,
+  //     duration:0.5,
+  //     rotate:'90deg'
+  //   })
 
 
-    tl.from("#img1",{
-      scale:0.5,
-      opacity:0,
-      duration:0.5,
-    })
+  //   tl.from("#img1",{
+  //     scale:0.5,
+  //     opacity:0,
+  //     duration:0.5,
+  //   })
 
-    tl.from("#img2",{
-      scale:0.5,
-      opacity:0,
-      duration:0.5,
-    })
+  //   tl.from("#img2",{
+  //     scale:0.5,
+  //     opacity:0,
+  //     duration:0.5,
+  //   })
 
-    tl.from("#img3",{
-      scale:0.5,
-      opacity:0,
-      duration:0.5,
-    })
+  //   tl.from("#img3",{
+  //     scale:0.5,
+  //     opacity:0,
+  //     duration:0.5,
+  //   })
 
-    tl.from("#img4",{
-      scale:0.5,
-      opacity:0,
-      duration:0.5,
-    })
+  //   tl.from("#img4",{
+  //     scale:0.5,
+  //     opacity:0,
+  //     duration:0.5,
+  //   })
 
  
  
 
 
-   })
+  // })
 
 
 
