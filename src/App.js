@@ -69,8 +69,8 @@ function App() {
       <RouterProvider router={router}/>
       <BrowserRouter>
       <Footer/>
-      <GoToTop/>
       </BrowserRouter>
+      <GoToTop/>
     </div>
   );
 }

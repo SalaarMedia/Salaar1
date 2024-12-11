@@ -6,8 +6,12 @@
    }
 
    .swiper-backface-hidden .swiper-slide{
-    width: 100% !important;
-    height: 90%;
+
+    
+   }
+
+   .footer-sec{
+    margin-top: 200px;
     
    }
 
