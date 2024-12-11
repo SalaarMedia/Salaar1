@@ -10,64 +10,64 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { TextPlugin } from "gsap/TextPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
- 
+
 
 
 const ServiceDesginHowWe = () => {
 
     gsap.registerPlugin(useGSAP,TextPlugin,ScrollTrigger)
 
-    // useGSAP(()=>{
-    //     let sh=gsap.timeline({
-    //         scrollTrigger:{
-    //             trigger:'#ServiceDesginHowWe',
-    //         }
-    //     })
-    //     sh.from('#HowWeDoHeader',{
-    //        y:300,
-    //        opacity:0,
-    //        duration:2
+    useGSAP(()=>{
+        let sh=gsap.timeline({
+            scrollTrigger:{
+                trigger:'#ServiceDesginHowWe',
+            }
+        })
+        sh.from('#HowWeDoHeader',{
+           y:300,
+           opacity:0,
+           duration:2
 
-    //     })
-    //     gsap.from('#boxWrapper1',{
-    //         y:200,
-    //         opacity:0,
-    //         duration:2,
-    //         scrollTrigger:{
-    //             trigger:'#boxWrapper1'
-    //         }
-    //     })
+        })
+        gsap.from('#boxWrapper1',{
+            y:200,
+            opacity:0,
+            duration:2,
+            scrollTrigger:{
+                trigger:'#boxWrapper1'
+            }
+        })
 
-    //     gsap.from('#boxWrapper2',{
-    //         y:200,
-    //         opacity:0,
-    //         duration:2,
-    //         scrollTrigger:{
-    //             trigger:'#boxWrapper2'
-    //         }
-    //     })
+        gsap.from('#boxWrapper2',{
+            y:200,
+            opacity:0,
+            duration:2,
+            scrollTrigger:{
+                trigger:'#boxWrapper2'
+            }
+        })
 
 
-    //     gsap.from('#boxWrapper3',{
-    //         y:200,
-    //         opacity:0,
-    //         duration:2,
-    //         scrollTrigger:{
-    //             trigger:'#boxWrapper3'
-    //         }
-    //     })
+        gsap.from('#boxWrapper3',{
+            y:200,
+            opacity:0,
+            duration:2,
+            scrollTrigger:{
+                trigger:'#boxWrapper3'
+            }
+        })
 
-    //     gsap.from('#HowWeDoFooter span',{
-    //         scale:0,
-    //         opacity:0,
-    //         duration:1,
-    //         ease:'back.inOut',
-    //         repeat:-1
+        gsap.from('#HowWeDoFooter span',{
+            scale:0,
+            opacity:0,
+            duration:1,
+            ease:'back.inOut',
+            repeat:-1
           
-    //     })
+        })
 
 
-    // })
+    })
 
   return (
     <div id='ServiceDesginHowWe' className={styles.ServiceDesginHowWe}>
