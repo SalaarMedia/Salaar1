@@ -55,6 +55,7 @@
 @media screen and (max-width:600px) {
 
     .motivationContainer{
+        margin-top: 100px;
         flex-direction: column;
         height: 100%;
         margin-bottom: 300px;
